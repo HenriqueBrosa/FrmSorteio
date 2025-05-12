@@ -10,6 +10,5 @@ public class Principal {
         FrmSorteio objetotela = new FrmSorteio();
         // Abre a FrmSorteio
         objetotela.setVisible(true);
-
     }
 }

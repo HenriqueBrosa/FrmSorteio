@@ -55,7 +55,6 @@ public class FrmSorteio extends javax.swing.JFrame {
         setTitle("Sorteio");
 
         JBNovo.setText("Novo");
-        JBNovo.setEnabled(false);
         JBNovo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 JBNovoActionPerformed(evt);
@@ -67,6 +66,7 @@ public class FrmSorteio extends javax.swing.JFrame {
         JLQuantidadeNumeros.setText("Quantidade de números a ser sorteados:");
 
         JBCancelar.setText("Cancelar");
+        JBCancelar.setEnabled(false);
         JBCancelar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 JBCancelarActionPerformed(evt);
